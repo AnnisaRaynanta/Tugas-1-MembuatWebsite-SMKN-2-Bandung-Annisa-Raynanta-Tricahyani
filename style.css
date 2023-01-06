@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(241, 235, 227);
+}
+
+.halaman1{
+    background-image: url("telur\ gulung.jpeg");
+    background: cover;
+    
+    
+
+} 
+
+
+.nav{
+    display: flex;
+    
+}
+
+.image img{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.image {
+    display: flex;
+}
+
+.logo h1{
+    color: rgb(69, 124, 69);
+    padding-top: 5px;
+}
+
+.logo .image h1{
+    display: flex;
+    margin-left: 30px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+
+
+.link{
+    margin-left: 45%;
+    margin-top: 30px;
+}
+
+.link ul{
+    display: flex;
+    flex-direction: row;
+    gap: 80px ;
+    font-size: 20px;
+    list-style-type: none;
+    
+}  
+
+.link ul li a{
+    text-decoration: none;
+    color: rgb(69, 124, 69);
+
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    margin-left: 30px;
+    padding-bottom: 20%;
+    color: rgb(24, 128, 93);  
+    width:100%;
+    max-width:400px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/* .text h3{
+    display: flex;
+    font-size: 30px;
+    color: black;
+    font-family:  liberata, serif;
+    margin-bottom: 2%; 
+    
+}
+
+.text p{
+    display: flex;
+    color: rgb(24, 128, 93);  
+    width:100%;
+    max-width:400px;
+    font-size: 20px;
+  
+} */
+
+/* .icon img{
+display: flex;
+flex-direction: row;
+margin-left: 5px;
+} */
+.icon{
+    display: flex;
+    flex-direction:row;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.pertama P{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 10px;
+    margin-top: 20px;
+
+}
+
+
+.kedua P{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+}
+
+.ketiga P{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+}
+.card{
+    margin-top: 5%;
+    display: flex;
+}
+
+.card1{   
+    /* width: 200px;
+    height: 250px; */
+    background: rgba(226, 204, 204, 0.1);
+    /* border: 1px solid black;
+    border-radius: 5px; */
+}
+
+ .card1 img{   
+   width: 100%;
+   height: 100%;  
+}   
+
+.card2{   
+    /* width: 50%;
+    height: 250px; */
+    background: rgba(226, 204, 204, 0.1);
+    /* border: 1px solid black;
+    border-radius: 5px; */
+}
+
+ .card2 img{   
+   width: 100%;
+   height: 100%;    
+}   
+.card3{   
+     /* width: 200px;
+    height: 250px; */
+    background: rgba(226, 204, 204, 0.1);
+    /* border: 1px solid black;
+    border-radius: 5px; */
+}
+
+ .card3 img{   
+   width: 100%;
+   height: 100%;  
+}  
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(69, 124, 69);
+    width: 100%;
+    height: 70px;
+    
+
+}
+
+.text1{
+    color: white;
+    
+    
+}
+
+.footer1{
+    display: flex;
+    padding-top: 15px;
+    gap: 30px;
+}
+
+/* .footer img{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+   
+} */
